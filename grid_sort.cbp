@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="grid_sort"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liushan/mylab/clang/grid_sort"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liushan/mylab/clang/grid_sort"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liushan/mylab/clang/grid_sort"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grid_sort">
+				<Option output="/home/liushan/mylab/clang/grid_sort/grid_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushan/mylab/clang/grid_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 grid_sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grid_sort/fast">
+				<Option output="/home/liushan/mylab/clang/grid_sort/grid_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushan/mylab/clang/grid_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 grid_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushan/mylab/clang/grid_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/ctl_lsn.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/main.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/main.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/read.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/read_conf.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sort_file/bubble_sort.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sort_file/bubble_sort.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sort_file/sort_file.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sort_file/sort_file.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/srv_run_master_node.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/start_srv_master.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/start_srv_master.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/start_srv_node.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/start_srv_node.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sub_func/get_file_line_num.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sub_func/get_file_line_num.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sub_func/get_last_char.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sub_func/get_last_char.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sub_func/merge_file.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/sub_func/merge_file.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/test.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/write_log.c">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/write_log.h">
+			<Option target="grid_sort"/>
+		</Unit>
+		<Unit filename="/home/liushan/mylab/clang/grid_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
